@@ -26,7 +26,7 @@ function computeResults(e) {
 
 //   const x = Math.pow(1 + CalculateInterest, calculatedPayments);
 //   const monthly = (principal * x * CalculateInterest) / (x - 1);
-//   const monthlyPayment = monthly.toFixed(2);
+//   const monthlyPayment = monthly.toFixed(2);/
 
 //   //Compute Interest
 
