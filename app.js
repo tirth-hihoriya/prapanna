@@ -32,9 +32,9 @@ function computeResults(e) {
 
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
   if(whatsappnumber == null){
-    console.log("https://wa.me/+919825108232?text=Totallllll is  Rs. " + total)
+    document.location("https://wa.me/+919825108232?text=Totallllll is  Rs. " + total);
   }
-  document.log("https://wa.me/+91" + whatsappnumber + "?text=Totallllll is  Rs. " + total);
+  document.location("https://wa.me/+91" + whatsappnumber + "?text=Totallllll is  Rs. " + total);
   // document.location = "https://wa.me/+91" + whatsappnumber + "?text=Total is  Rs. " + total;
   
   e.preventDefault();
