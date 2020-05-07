@@ -23,7 +23,7 @@ function computeResults(e) {
 
   const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(2);
 
-  window.location.assign("https://www.youtube.com/watch?v=ecWxI0_UfAA");
+  
   //Show results
 
 //   document.getElementById("monthlyPayment").innerHTML = "$" + monthlyPayment;
@@ -31,6 +31,6 @@ function computeResults(e) {
 //   document.getElementById("totalInterest").innerHTML = "%" + totalInterest;
 
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
-
+  window.location.assign("https://www.youtube.com/watch?v=ecWxI0_UfAA");
   e.preventDefault();
 }
