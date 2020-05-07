@@ -30,7 +30,7 @@ if(har != "")
 }
 if(dj != "")
 {
-  msg = msg + "DhanaJeeru(200/kg)   "+ gj+  "kg    " +  dj*200;        
+  msg = msg + "DhanaJeeru(200/kg)   "+ dj+  "kg    " +  dj*200;        
 }
 if(mar != "")
 {
