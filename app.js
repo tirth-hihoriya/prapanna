@@ -31,6 +31,7 @@ function computeResults(e) {
 //   document.getElementById("totalInterest").innerHTML = "%" + totalInterest;
 
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
-  document.getElementById("link_msg").innerHTML = "https://wa.me/+91" + whatsappnumber + "?text=Total is  Rs. " + total;
+  // window.location = "https://www.tutorialspoint.com";
+  // document.getElementById("link_msg").innerHTML = "https://wa.me/+91" + whatsappnumber + "?text=Total is  Rs. " + total;
   e.preventDefault();
 }
