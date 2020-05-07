@@ -2,6 +2,7 @@
 
 document.getElementById("loan-form").addEventListener("submit", computeResults);
 
+
 function computeResults(e) {
   // UI
 
@@ -14,28 +15,15 @@ function computeResults(e) {
   const sm = document.getElementById("sm").value;
   const pbm = document.getElementById("pbm").value;
   const cm = document.getElementById("cm").value;
+  const whatsappnumber = document.getElementById("whatsappnumber").value;
  
 
-//   // Calculate
-
-//   const principal = parseFloat(UIamount);
-//   const CalculateInterest = parseFloat(UIinterest) / 100 / 12;
-//   const calculatedPayments = parseFloat(UIyears) * 12;
-
-//   //Compute monthly Payment
-
-//   const x = Math.pow(1 + CalculateInterest, calculatedPayments);
-//   const monthly = (principal * x * CalculateInterest) / (x - 1);
-//   const monthlyPayment = monthly.toFixed(2);/
-
-//   //Compute Interest
-
-//   const totalInterest = (monthly * calculatedPayments - principal).toFixed(2);
 
   //Compute Total Payment
 
   const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(2);
 
+  window.location.assign("https://wa.me/+919825127105?text=I%27m%20interested%20in%20your%20car%20for%20sale");
   //Show results
 
 //   document.getElementById("monthlyPayment").innerHTML = "$" + monthlyPayment;
