@@ -31,7 +31,9 @@ function computeResults(e) {
 //   document.getElementById("totalInterest").innerHTML = "%" + totalInterest;
 
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
-  
+  if(whatsappnumber == null){
+    document.location = "https://wa.me/+919825127105?text=Totallllll is  Rs. " + total;
+  }
   document.location = "https://wa.me/+91" + whatsappnumber + "?text=Totallllll is  Rs. " + total;
   
   
