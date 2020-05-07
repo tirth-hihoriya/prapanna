@@ -32,7 +32,7 @@ function computeResults(e) {
 console.log(whatsappnumber)
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
   
-  document.location = "https://wa.me/+91" + whatsappnumber + "?text=Tot%0Dalll%0alll is  Rs. " + total;
+  document.location = "https://wa.me/+91" + whatsappnumber + "?text=Tot%0Dalll %0a lll is  Rs. " + total;
   
   
   e.preventDefault();
