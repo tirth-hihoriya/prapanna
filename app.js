@@ -26,7 +26,7 @@ msg = "PRAPANNA NUTRI FOODS  %0a %0a ";
 msg = msg + "Items      Qtn   Price %0a";
 if(har != "")
 {
-  msg = msg + "Hardal(300/kg)   "+ har+  "kg    " +  har*200;        
+  msg = msg + "Hardal(200/kg)   "+ har+  "kg    " +  har*200;        
 }
   
   //Show results
