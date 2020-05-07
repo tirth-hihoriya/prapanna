@@ -45,7 +45,7 @@ if(mar != "")
 console.log(msg)
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
   
-  // document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
+  document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
   
   
   e.preventDefault();
