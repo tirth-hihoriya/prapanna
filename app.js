@@ -34,8 +34,9 @@ console.log(whatsappnumber)
   if(whatsappnumber == ""){
     document.location = "https://wa.me/+919825127105?text=Totallllll is  Rs. " + total;
   }
+  else{
   document.location = "https://wa.me/+91" + whatsappnumber + "?text=Totallllll is  Rs. " + total;
-  
+  }
   
   e.preventDefault();
 }
