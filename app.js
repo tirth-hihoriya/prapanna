@@ -31,6 +31,6 @@ function computeResults(e) {
 //   document.getElementById("totalInterest").innerHTML = "%" + totalInterest;
 
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
-  window.location.assign("https://www.youtube.com/watch?v=ecWxI0_UfAA");
+  window.location.assign("https://wa.me/+919825127105?text=hello");
   e.preventDefault();
 }
