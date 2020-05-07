@@ -22,7 +22,12 @@ function computeResults(e) {
   //Compute Total Payment
 
   const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(2);
-
+msg = "PRAPANNA NUTRI FOODS  %0a %0a ";
+msg = msg + "Items      Qtn   Price %0a";
+if(har != "")
+{
+  msg = msg + "Hardal(300/kg)   "+ har+  "kg    " +  har*200;        
+}
   
   //Show results
 
@@ -32,7 +37,7 @@ function computeResults(e) {
 console.log(whatsappnumber)
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
   
-  document.location = "https://wa.me/+91" + whatsappnumber + "?text=Tot%0Dalll %0a lll is  Rs. " + total;
+  document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
   
   
   e.preventDefault();
