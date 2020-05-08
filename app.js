@@ -51,7 +51,7 @@ if(jee != "")
 
 if(gm != "")
 {
-  msg = msg + "Garam M.       "+ gm+  "g    " +  gm*0.8 + " %0a ";        
+  msg = msg + "Garam M.         "+ gm+  "g    " +  gm*0.8 + " %0a ";        
 }
 if(sm != "")
 {
@@ -63,7 +63,7 @@ if(pbm != "")
 }
 if(cm != "")
 {
-  msg = msg + "Chat M.          "+ cm+  "g    " +  cm*0.3 + " %0a ";    
+  msg = msg + "Chat M.            "+ cm+  "g    " +  cm*0.3 + " %0a ";    
     
 }
 msg = msg + "------------------------------------------- %0a ";
