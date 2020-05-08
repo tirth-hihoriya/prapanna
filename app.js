@@ -69,7 +69,7 @@ if(cm != "")
 msg = msg + "------------------------------------------- %0a ";
 msg = msg + " %0a Total Amount =   Rs  " + total;
 msg = msg + " %0a ------------------------------------------- %0a ";
-msg = msg + " %0a %0a  Happy Life = Healthy Life ";
+msg = msg + " %0a %0a  Healthy Life = Happy Life ";
 
 
   //Show results
