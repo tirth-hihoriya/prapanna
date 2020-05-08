@@ -22,7 +22,7 @@ function computeResults(e) {
   //Compute Total Payment
 
   const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(2);
-  var msg = " %0a______________________________ %0a     cPRAPANNA NUTRI FOODS  %0a ";
+  var msg = " %0a______________________________ %0a    PRAPANNA NUTRI FOODS  %0a ";
   msg = msg + "______________________________ %0a  %0a";
 msg = msg + " Items               Qtn    Price %0a";
 msg = msg + "-------------------------------------------- %0a ";
@@ -41,7 +41,7 @@ if(mar != "")
   
 if(kmar != "")
 {
-  msg = msg + "Kashmiri        "+ kmar+  "kg    " +  kmar*360 + " %0a ";        
+  msg = msg + "Kashmiri         "+ kmar+  "kg    " +  kmar*360 + " %0a ";        
 }
 
 if(jee != "")
@@ -51,7 +51,7 @@ if(jee != "")
 
 if(gm != "")
 {
-  msg = msg + "Garam M.      "+ gm+  "g    " +  gm*0.8 + " %0a ";        
+  msg = msg + "Garam M.       "+ gm+  "g    " +  gm*0.8 + " %0a ";        
 }
 if(sm != "")
 {
@@ -59,11 +59,11 @@ if(sm != "")
 }
 if(pbm != "")
 {
-  msg = msg + "Pavbhaji M.    "+ pbm+  "g    " +  pbm*0.6 + " %0a ";        
+  msg = msg + "Pavbhaji M.     "+ pbm+  "g    " +  pbm*0.6 + " %0a ";        
 }
 if(cm != "")
 {
-  msg = msg + "Chat M.        "+ cm+  "g    " +  cm*0.3 + " %0a ";    
+  msg = msg + "Chat M.          "+ cm+  "g    " +  cm*0.3 + " %0a ";    
     
 }
 msg = msg + "------------------------------------------- %0a ";
