@@ -21,9 +21,9 @@ function computeResults(e) {
 
   //Compute Total Payment
 
-  const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(2);
-  var msg = " %0a______________________________ %0a    PRAPANNA NUTRI FOODS  %0a ";
-  msg = msg + "______________________________ %0a  %0a";
+  const total = (har*200 + dj*200 + mar*280 + kmar*360 + jee*220 + gm*0.8 + sm*0.6 + pbm*0.6 + cm*0.3).toFixed(0);
+  var msg = " %0a___________________________ %0a PRAPANNA NUTRI FOODS  %0a ";
+  msg = msg + "___________________________ %0a  %0a";
 msg = msg + " Items               Qtn    Price %0a";
 msg = msg + "-------------------------------------------- %0a ";
 if(har != "")
@@ -67,7 +67,7 @@ if(cm != "")
     
 }
 msg = msg + "------------------------------------------- %0a ";
-msg = msg + " %0a Total Amount =  Rs " + total;
+msg = msg + " %0a Total Amount =   ₹ " + total;
 msg = msg + " %0a ------------------------------------------- %0a ";
 msg = msg + " %0a %0a  Happy Life = Healthy Life ";
 
@@ -82,7 +82,7 @@ console.log(msg)
   
   // document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
   
-  document.location = "https://wa.me/+919825127105?text="+ msg;
+  // document.location = "https://wa.me/+919825127105?text="+ msg;
   
   
   e.preventDefault();
