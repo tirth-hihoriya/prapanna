@@ -6,15 +6,15 @@ document.getElementById("loan-form").addEventListener("submit", computeResults);
 function computeResults(e) {
   // UI
 
-  const har = 2//document.getElementById("har").value;
-  const dj = 3//document.getElementById("dj").value;
-  const mar = 1//document.getElementById("mar").value;
-  const kmar = 5//document.getElementById("kmar").value;
-  const jee = 3//document.getElementById("jee").value;
-  const gm = 50//document.getElementById("gm").value;
-  const sm = 100//document.getElementById("sm").value;
-  const pbm = 200//document.getElementById("pbm").value;
-  const cm = 250//document.getElementById("cm").value;
+  const har = document.getElementById("har").value;
+  const dj = document.getElementById("dj").value;
+  const mar = document.getElementById("mar").value;
+  const kmar = document.getElementById("kmar").value;
+  const jee = document.getElementById("jee").value;
+  const gm = document.getElementById("gm").value;
+  const sm = document.getElementById("sm").value;
+  const pbm = document.getElementById("pbm").value;
+  const cm = document.getElementById("cm").value;
   const whatsappnumber = document.getElementById("whatsappnumber").value;
  
 
@@ -80,9 +80,9 @@ msg = msg + " %0a %0a  Happy Life = Healthy Life ";
 console.log(msg)
   document.getElementById("totalPayment").innerHTML = "Rs. " + total;
   
-  // document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
+  document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
   
-  document.location = "https://wa.me/+919825127105?text="+ msg;
+  // document.location = "https://wa.me/+919825127105?text="+ msg;
   
   
   e.preventDefault();
