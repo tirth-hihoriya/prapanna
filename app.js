@@ -28,25 +28,25 @@ msg = msg + " Items               Qtn    Price %0a";
 msg = msg + "-------------------------------------------- %0a ";
 if(har != "")
 {
-  msg = msg + "Hardal              "+ har+  "kg    " +  har*200 + " %0a ";        
+  msg = msg + "Hardal              "+ har+  "kg      " +  har*200 + " %0a ";        
 }
 if(dj != "")
 {
-  msg = msg + "Dhana Jeeru    "+ dj+  "kg    " +  dj*200 + " %0a ";        
+  msg = msg + "Dhana Jeeru    "+ dj+  "kg      " +  dj*200 + " %0a ";        
 }
 if(mar != "")
 {
-  msg = msg + "Marchu             "+ mar+  "kg    " +  mar*280 + " %0a ";        
+  msg = msg + "Marchu             "+ mar+  "kg      " +  mar*280 + " %0a ";        
 }
   
 if(kmar != "")
 {
-  msg = msg + "Kashmiri         "+ kmar+  "kg    " +  kmar*360 + " %0a ";        
+  msg = msg + "Kashmiri          "+ kmar+  "kg      " +  kmar*360 + " %0a ";        
 }
 
 if(jee != "")
 { 
-  msg = msg + "Jeeru                "+ jee+  "kg    " +  jee*220 + " %0a ";        
+  msg = msg + "Jeeru                "+ jee+  "kg      " +  jee*220 + " %0a ";        
 }
 
 if(gm != "")
