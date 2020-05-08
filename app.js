@@ -25,14 +25,14 @@ function computeResults(e) {
   var msg = " %0a______________________________ %0a      PRAPANNA NUTRI FOODS  %0a ";
   msg = msg + "______________________________ %0a  %0a";
 msg = msg + " Items               Qtn    Price(Rs.) %0a";
-msg = msg + "----------------------------------------- %0a ";
+msg = msg + "---------------------------------------------- %0a ";
 if(har != "")
 {
   msg = msg + "Hardal              "+ har+  "kg    " +  har*200 + " %0a ";        
 }
 if(dj != "")
 {
-  msg = msg + "Dhana Jeeru     "+ dj+  "kg    " +  dj*200 + " %0a ";        
+  msg = msg + "Dhana Jeeru    "+ dj+  "kg    " +  dj*200 + " %0a ";        
 }
 if(mar != "")
 {
@@ -41,34 +41,34 @@ if(mar != "")
   
 if(kmar != "")
 {
-  msg = msg + "Kashmiri      "+ kmar+  "kg    " +  kmar*360 + " %0a ";        
+  msg = msg + "Kashmiri        "+ kmar+  "kg    " +  kmar*360 + " %0a ";        
 }
 
 if(jee != "")
 { 
-  msg = msg + "Jeeru               "+ jee+  "kg    " +  jee*220 + " %0a ";        
+  msg = msg + "Jeeru                "+ jee+  "kg    " +  jee*220 + " %0a ";        
 }
 
 if(gm != "")
 {
-  msg = msg + "Garam M.    "+ gm+  "g    " +  gm*0.8 + " %0a ";        
+  msg = msg + "Garam M.      "+ gm+  "g    " +  gm*0.8 + " %0a ";        
 }
 if(sm != "")
 {
-  msg = msg + "Sambhar M."+ sm+  "g    " +  sm*0.6 + " %0a ";        
+  msg = msg + "Sambhar M.    "+ sm+  "g    " +  sm*0.6 + " %0a ";        
 }
 if(pbm != "")
 {
-  msg = msg + "Pavbhaji M."+ pbm+  "g    " +  pbm*0.6 + " %0a ";        
+  msg = msg + "Pavbhaji M.    "+ pbm+  "g    " +  pbm*0.6 + " %0a ";        
 }
 if(cm != "")
 {
-  msg = msg + "Chat M.   "+ cm+  "g    " +  cm*0.3 + " %0a ";    
+  msg = msg + "Chat M.        "+ cm+  "g    " +  cm*0.3 + " %0a ";    
     
 }
-msg = msg + "----------------------------------------- %0a ";
-msg = msg + " %0a Total Amount =  Rs. " + total;
-msg = msg + "----------------------------------------- %0a ";
+msg = msg + "---------------------------------------------- %0a ";
+msg = msg + " %0a Total Amount =  Rs " + total;
+msg = msg + " %0a ---------------------------------------------- %0a ";
 msg = msg + " %0a %0a  Happy Life = Healthy Life ";
 
 
