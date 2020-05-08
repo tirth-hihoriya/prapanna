@@ -82,7 +82,7 @@ console.log(msg)
   
   // document.location = "https://wa.me/+91" + whatsappnumber + "?text="+ msg;
   
-  // document.location = "https://wa.me/+919825127105?text="+ msg;
+  document.location = "https://wa.me/+919825127105?text="+ msg;
   
   
   e.preventDefault();
