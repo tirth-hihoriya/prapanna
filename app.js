@@ -103,7 +103,7 @@ if(cm != "")
 
 if(ppm != "")
 { 
-  msg = msg + "Pani-Puri M.                    "+ ppm+  "g    " +  ppm*.333333 + " %0a ";        
+  msg = msg + "Pani-Puri M.                    "+ ppm+  "g    " +  Math.round(ppm*.333333) + " %0a ";        
 }
 
 if(dm != "")
