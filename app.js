@@ -34,7 +34,7 @@ function computeResults(e) {
 
   //Compute Total Payment
 
-  const total = (har*220 + dj*220 + mar*280 + kmar*500 + jee*220 + mus*80 + meth*90 + ajm*250 +suth*600 + gm*0.85 + sm*0.65 + pbm*0.7 + cm*0.5 + ppm*0.333333 + dm*110 + dc*65 + dtd*120 + baj*40 + ric*33 + kric*120 + jag*60 + go*2430).toFixed(0);
+  const total = (har*220 + dj*220 + mar*280 + kmar*500 + jee*220 + mus*80 + meth*90 + ajm*250 +suth*600 + gm*0.85 + sm*0.65 + pbm*0.7 + cm*0.5 + Math.round(ppm*0.333333) + dm*110 + dc*65 + dtd*120 + baj*40 + ric*33 + kric*120 + jag*60 + go*2430).toFixed(0);
   var msg = " %0a___________________________ %0a PRAPANNA NUTRI FOODS  %0a ";
   msg = msg + "___________________________ %0a  %0a";
 msg = msg + " Items                               Qtn    Price %0a";
